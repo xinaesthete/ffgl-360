@@ -4,7 +4,7 @@
 #include <ffglex/FFGLShader.h>
 #include <ffglex/FFGLScreenQuad.h>
 
-class FisheyeToEqui : public CFreeFrameGLPlugin
+class FisheyeToEqui : public CFFGLPlugin
 {
 public:
 	FisheyeToEqui();
