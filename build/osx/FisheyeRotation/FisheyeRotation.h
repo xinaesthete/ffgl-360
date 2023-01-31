@@ -4,7 +4,7 @@
 #include <ffglex/FFGLShader.h>
 #include <ffglex/FFGLScreenQuad.h>
 
-class EquiToFisheye : public CFreeFrameGLPlugin
+class EquiToFisheye : public CFFGLPlugin
 {
 public:
 	EquiToFisheye();
