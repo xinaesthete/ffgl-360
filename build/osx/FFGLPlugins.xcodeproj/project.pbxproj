@@ -259,7 +259,6 @@
 		6E4932AA2989574B00D81957 /* FFGLEffect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 652480652306FD13007257C5 /* FFGLEffect.cpp */; };
 		6E4932AB2989574B00D81957 /* FFGLShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1B2708E321635F83002B8B05 /* FFGLShader.cpp */; };
 		6E4932AC2989574B00D81957 /* FFGLSource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6524805F2306FD13007257C5 /* FFGLSource.cpp */; };
-		6E4932B6298957C500D81957 /* EquiToFisheye.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E4932B5298957C500D81957 /* EquiToFisheye.cpp */; };
 		6E4932BA2989598500D81957 /* FFGLParamFFT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 652480612306FD13007257C5 /* FFGLParamFFT.cpp */; };
 		6E4932BB2989598500D81957 /* FFGLParamOption.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6524807E2306FD14007257C5 /* FFGLParamOption.cpp */; };
 		6E4932BC2989598500D81957 /* FFGLUtilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1B2708D421635F82002B8B05 /* FFGLUtilities.cpp */; };
@@ -293,7 +292,8 @@
 		6E4932D92989598500D81957 /* FFGLEffect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 652480652306FD13007257C5 /* FFGLEffect.cpp */; };
 		6E4932DA2989598500D81957 /* FFGLShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1B2708E321635F83002B8B05 /* FFGLShader.cpp */; };
 		6E4932DB2989598500D81957 /* FFGLSource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6524805F2306FD13007257C5 /* FFGLSource.cpp */; };
-		6E4932E929895B1C00D81957 /* FisheyeRotation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E4932E729895B1C00D81957 /* FisheyeRotation.cpp */; };
+		6E4932ED29895C2A00D81957 /* FisheyeRotation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E4932EB29895C2A00D81957 /* FisheyeRotation.cpp */; };
+		6E4932F129895C3D00D81957 /* EquiToFisheye.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E4932F029895C3D00D81957 /* EquiToFisheye.cpp */; };
 		D69416C91B904EA200D30319 /* AddSubtract.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D69416A11B90436100D30319 /* AddSubtract.cpp */; };
 		DB4B641D1FF84E910069DA80 /* Add.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB4B63E11FF8453A0069DA80 /* Add.cpp */; };
 		F442E33A253DE80B008313C0 /* FFGLLog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F442E338253DE801008313C0 /* FFGLLog.cpp */; };
@@ -479,11 +479,11 @@
 		6E493285298930E300D81957 /* Test360.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Test360.cpp; sourceTree = "<group>"; };
 		6E493286298930E300D81957 /* Test360.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test360.h; sourceTree = "<group>"; };
 		6E4932B12989574B00D81957 /* EquiToFisheye.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EquiToFisheye.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		6E4932B4298957C500D81957 /* EquiToFisheye.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EquiToFisheye.h; sourceTree = "<group>"; };
-		6E4932B5298957C500D81957 /* EquiToFisheye.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EquiToFisheye.cpp; sourceTree = "<group>"; };
 		6E4932E02989598500D81957 /* FisheyeRotation.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FisheyeRotation.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		6E4932E729895B1C00D81957 /* FisheyeRotation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FisheyeRotation.cpp; sourceTree = "<group>"; };
-		6E4932E829895B1C00D81957 /* FisheyeRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FisheyeRotation.h; sourceTree = "<group>"; };
+		6E4932EB29895C2A00D81957 /* FisheyeRotation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FisheyeRotation.cpp; sourceTree = "<group>"; };
+		6E4932EC29895C2A00D81957 /* FisheyeRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FisheyeRotation.h; sourceTree = "<group>"; };
+		6E4932EF29895C3D00D81957 /* EquiToFisheye.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EquiToFisheye.h; sourceTree = "<group>"; };
+		6E4932F029895C3D00D81957 /* EquiToFisheye.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EquiToFisheye.cpp; sourceTree = "<group>"; };
 		A9F28D5818B37D0C007D7C87 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		A9F28D5A18B37D12007D7C87 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		A9F92EA9201A1C1500527E48 /* Particles.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Particles.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -763,22 +763,24 @@
 			path = ../../source/plugins/Test360;
 			sourceTree = "<group>";
 		};
-		6E4932B3298957C500D81957 /* EquiToFisheye */ = {
+		6E4932EA29895C2A00D81957 /* FisheyeRotation */ = {
 			isa = PBXGroup;
 			children = (
-				6E4932B4298957C500D81957 /* EquiToFisheye.h */,
-				6E4932B5298957C500D81957 /* EquiToFisheye.cpp */,
+				6E4932EB29895C2A00D81957 /* FisheyeRotation.cpp */,
+				6E4932EC29895C2A00D81957 /* FisheyeRotation.h */,
 			);
-			path = EquiToFisheye;
+			name = FisheyeRotation;
+			path = ../../source/plugins/FisheyeRotation;
 			sourceTree = "<group>";
 		};
-		6E4932E629895B1C00D81957 /* FisheyeRotation */ = {
+		6E4932EE29895C3D00D81957 /* EquiToFisheye */ = {
 			isa = PBXGroup;
 			children = (
-				6E4932E729895B1C00D81957 /* FisheyeRotation.cpp */,
-				6E4932E829895B1C00D81957 /* FisheyeRotation.h */,
+				6E4932EF29895C3D00D81957 /* EquiToFisheye.h */,
+				6E4932F029895C3D00D81957 /* EquiToFisheye.cpp */,
 			);
-			path = FisheyeRotation;
+			name = EquiToFisheye;
+			path = ../../source/plugins/EquiToFisheye;
 			sourceTree = "<group>";
 		};
 		A91E037820173C1F0018E2D0 /* Gradients */ = {
@@ -879,8 +881,8 @@
 		E8D165D30C5E174D0035D796 /* effect plugins */ = {
 			isa = PBXGroup;
 			children = (
-				6E4932E629895B1C00D81957 /* FisheyeRotation */,
-				6E4932B3298957C500D81957 /* EquiToFisheye */,
+				6E4932EE29895C3D00D81957 /* EquiToFisheye */,
+				6E4932EA29895C2A00D81957 /* FisheyeRotation */,
 				6E493284298930E300D81957 /* Test360 */,
 				D69416A01B90436100D30319 /* AddSubtract */,
 			);
@@ -1318,7 +1320,7 @@
 				6E4932972989574B00D81957 /* FFGLParamEvent.cpp in Sources */,
 				6E4932982989574B00D81957 /* FFGLScopedRenderBufferBinding.cpp in Sources */,
 				6E4932992989574B00D81957 /* FFGLRandom.cpp in Sources */,
-				6E4932B6298957C500D81957 /* EquiToFisheye.cpp in Sources */,
+				6E4932F129895C3D00D81957 /* EquiToFisheye.cpp in Sources */,
 				6E49329A2989574B00D81957 /* FFGLScreenQuad.cpp in Sources */,
 				6E49329B2989574B00D81957 /* FFGLSmoothValue.cpp in Sources */,
 				6E49329C2989574B00D81957 /* FFGLParamRange.cpp in Sources */,
@@ -1350,7 +1352,7 @@
 				6E4932BC2989598500D81957 /* FFGLUtilities.cpp in Sources */,
 				6E4932BD2989598500D81957 /* FFGLPluginManager.cpp in Sources */,
 				6E4932BE2989598500D81957 /* FFGLScopedBufferBinding.cpp in Sources */,
-				6E4932E929895B1C00D81957 /* FisheyeRotation.cpp in Sources */,
+				6E4932ED29895C2A00D81957 /* FisheyeRotation.cpp in Sources */,
 				6E4932BF2989598500D81957 /* FFGLScopedShaderBinding.cpp in Sources */,
 				6E4932C02989598500D81957 /* FFGLPlugin.cpp in Sources */,
 				6E4932C12989598500D81957 /* FFGLPluginInfo.cpp in Sources */,
